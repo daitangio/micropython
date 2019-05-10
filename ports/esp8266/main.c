@@ -43,7 +43,9 @@
 #include "gccollect.h"
 #include "user_interface.h"
 
-STATIC char heap[38 * 1024];
+// GG: v1.10 was 38Kb
+// Pushed to 40Kb
+STATIC char heap[ 40 * 1024];
 
 STATIC void mp_reset(void) {
     mp_stack_set_top((void*)0x40000000);
