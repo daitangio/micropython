@@ -29,6 +29,7 @@
 const char esp_help_text[] =
 "Welcome to MicroPython!\n"
 "\n"
+"GIOORGI.com HACKED VERSION\n"
 "For online docs please visit http://docs.micropython.org/en/latest/esp8266/ .\n"
 "For diagnostic information to include in bug reports execute 'import port_diag'.\n"
 "\n"
