@@ -45,6 +45,7 @@
 
 // GG: v1.10 was 38Kb
 // Pushed to 40Kb
+// 51 is the current limit with disabled stuff
 STATIC char heap[ 40 * 1024];
 
 STATIC void mp_reset(void) {
